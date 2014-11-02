@@ -7,12 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "DetailViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+
+    NSLog(@"segue is prepared");
+    DetailViewController* destination = segue.destinationViewController;
+    destination.detailString = [NSDate date].description;
+
+}
 - (id) initWithCoder:(NSCoder *)aDecoder{
 // initWithCoder is use by storyboard
     self = [super initWithCoder:aDecoder];

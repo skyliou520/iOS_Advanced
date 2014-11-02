@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.detailLabel.text = self.detailString;
     // Do any additional setup after loading the view.
 }
 

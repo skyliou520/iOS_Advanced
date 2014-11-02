@@ -34,7 +34,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doDetail:" destination="5cC-Q4-mOr" eventType="touchUpInside" id="pHZ-qd-xMb"/>
                                     <segue destination="Wqx-y7-yk4" kind="push" id="QfH-RW-uQV"/>
                                 </connections>
                             </button>
