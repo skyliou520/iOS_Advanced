@@ -13,11 +13,19 @@
 @end
 
 @implementation ViewController
-
+- (id) initWithCoder:(NSCoder *)aDecoder{
+// initWithCoder is use by storyboard
+    self = [super initWithCoder:aDecoder];
+    if (self){
+        _counter = 40;
+    }
+    return self;
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
-    self.counter = 0;
+    //self.counter = 0;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -30,5 +38,7 @@
     self.counter ++;
     self.counterLabel.text = [NSString stringWithFormat:@"Counter=%d",self.counter];
         
+}
+- (IBAction)doDetail:(id)sender {
 }
 @end

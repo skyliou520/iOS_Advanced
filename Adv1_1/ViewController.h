@@ -15,5 +15,8 @@
 - (IBAction)doIncrement:(id)sender;
 @property (strong, nonatomic) IBOutlet UIButton *doFoo;
 @property (strong, nonatomic) IBOutlet UIButton *doXXX;
+
+- (IBAction)doDetail:(id)sender;
+
 @end
 
