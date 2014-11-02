@@ -15,10 +15,12 @@
 
 @implementation ViewController
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-
-    NSLog(@"segue is prepared");
-    DetailViewController* destination = segue.destinationViewController;
-    destination.detailString = [NSDate date].description;
+    if ([segue.identifier isEqualToString:@"goDetail"])
+    {
+        NSLog(@"segue is prepared");
+        DetailViewController* destination = segue.destinationViewController;
+        destination.detailString = [NSDate date].description;
+    }
 
 }
 - (id) initWithCoder:(NSCoder *)aDecoder{

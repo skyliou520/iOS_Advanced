@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Master-->
         <scene sceneID="tCN-q0-vlB">
             <objects>
                 <viewController id="5cC-Q4-mOr" customClass="ViewController" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Wqx-y7-yk4" kind="push" id="QfH-RW-uQV"/>
+                                    <segue destination="Wqx-y7-yk4" kind="push" identifier="goDetail" id="QfH-RW-uQV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZi-ts-h9x">
@@ -49,7 +49,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="3iC-qx-Vhz"/>
+                    <navigationItem key="navigationItem" title="Master" id="3iC-qx-Vhz"/>
                     <connections>
                         <outlet property="counterLabel" destination="irf-s4-yOS" id="89t-rn-qsK"/>
                     </connections>
@@ -58,7 +58,7 @@
             </objects>
             <point key="canvasLocation" x="746" y="-123"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Detail-->
         <scene sceneID="2YN-Zr-fVz">
             <objects>
                 <viewController id="Wqx-y7-yk4" customClass="DetailViewController" sceneMemberID="viewController">
@@ -79,7 +79,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mJs-JP-6zJ"/>
+                    <navigationItem key="navigationItem" title="Detail" id="mJs-JP-6zJ"/>
                     <connections>
                         <outlet property="detailLabel" destination="Fjs-Sk-QTx" id="0SX-Y4-Agb"/>
                     </connections>
