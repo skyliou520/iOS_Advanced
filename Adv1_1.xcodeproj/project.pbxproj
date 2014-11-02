@@ -14,6 +14,7 @@
 		AEBCB0DB1A05BFC7000BE74B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBCB0DA1A05BFC7000BE74B /* Images.xcassets */; };
 		AEBCB0DE1A05BFC7000BE74B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBCB0DC1A05BFC7000BE74B /* LaunchScreen.xib */; };
 		AEBCB0EA1A05BFC7000BE74B /* Adv1_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBCB0E91A05BFC7000BE74B /* Adv1_1Tests.m */; };
+		AEBCB0F41A05C3F4000BE74B /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBCB0F31A05C3F4000BE74B /* Second.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		AEBCB0E31A05BFC7000BE74B /* Adv1_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adv1_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBCB0E81A05BFC7000BE74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEBCB0E91A05BFC7000BE74B /* Adv1_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adv1_1Tests.m; sourceTree = "<group>"; };
+		AEBCB0F31A05C3F4000BE74B /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Second.storyboard; path = ../Second.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				AEBCB0D41A05BFC7000BE74B /* ViewController.h */,
 				AEBCB0D51A05BFC7000BE74B /* ViewController.m */,
 				AEBCB0D71A05BFC7000BE74B /* Main.storyboard */,
+				AEBCB0F31A05C3F4000BE74B /* Second.storyboard */,
 				AEBCB0DA1A05BFC7000BE74B /* Images.xcassets */,
 				AEBCB0DC1A05BFC7000BE74B /* LaunchScreen.xib */,
 				AEBCB0CD1A05BFC7000BE74B /* Supporting Files */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBCB0F41A05C3F4000BE74B /* Second.storyboard in Resources */,
 				AEBCB0D91A05BFC7000BE74B /* Main.storyboard in Resources */,
 				AEBCB0DE1A05BFC7000BE74B /* LaunchScreen.xib in Resources */,
 				AEBCB0DB1A05BFC7000BE74B /* Images.xcassets in Resources */,

@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor greenColor];
+    self.counter = 0;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)doIncrement:(id)sender {
+    self.counter ++;
+    self.counterLabel.text = [NSString stringWithFormat:@"Counter=%d",self.counter];
+        
+}
 @end

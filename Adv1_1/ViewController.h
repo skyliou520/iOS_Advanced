@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
-
+@property (strong, nonatomic) IBOutlet UILabel *counterLabel;
+@property int counter;
+- (IBAction)doIncrement:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *doFoo;
+@property (strong, nonatomic) IBOutlet UIButton *doXXX;
 @end
 
